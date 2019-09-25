@@ -24,12 +24,8 @@ end
   end
 
   def author_name
-    binding.pry
-     if self.author.name
-       return self.author.name
-     else
-       nil
-     end
+    #binding.pry
+     self.author.name if self.author
   end
 
 
