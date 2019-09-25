@@ -25,6 +25,9 @@ end
   def author_name
      if self.author.name
        return self.author.name
+     else
+       nil
+     end
   end
 
 
