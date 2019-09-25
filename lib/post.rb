@@ -10,7 +10,7 @@ end
 
   def initialize (title)
     @title = title
-    @all << self
+    @@all << self
   end
 
   def author= (author)
