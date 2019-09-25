@@ -3,7 +3,7 @@ class Artist
 attr_accessor :name, :songs
 
   def self.song_count
-    @songs.all.count
+    Songs.all.count
   end
 
   def initialize (name)
