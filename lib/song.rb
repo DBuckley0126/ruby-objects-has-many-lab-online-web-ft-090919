@@ -3,7 +3,7 @@ class Song
   attr_accessor :name
   @@all = []
 
-  def all
+  def self.all
     @@all
   end
 
