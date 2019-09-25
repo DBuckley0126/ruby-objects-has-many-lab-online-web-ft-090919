@@ -2,6 +2,10 @@ class Author
 
 attr_accessor :name, :posts
 
+  def self.post_count
+    Song.all.count
+  end
+
   def initialize (name)
     @name = name
     @posts = []
