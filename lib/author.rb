@@ -12,7 +12,7 @@ attr_accessor :name, :posts
     @posts << post
   end
 
-  def add_post_by_author (title)
+  def add_post_by_title (title)
     post = Post.new (title)
     post.author = self
     @posts << post
