@@ -20,4 +20,9 @@ class Song
   def artist
     @artist
   end
+
+  def artist_name
+    #binding.pry
+     self.artist.name if self.artist
+  end
 end
