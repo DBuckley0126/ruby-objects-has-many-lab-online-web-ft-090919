@@ -18,6 +18,10 @@ end
     author.posts << self
   end
 
+  def author
+    @author
+  end
+
   def author_name
     self.author.name if self.author.name
   end
