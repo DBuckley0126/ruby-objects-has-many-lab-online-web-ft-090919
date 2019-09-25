@@ -1,3 +1,4 @@
+require 'pry'
 class Post
 
 @@all = []
@@ -23,6 +24,7 @@ end
   end
 
   def author_name
+    binding.pry
      if self.author.name
        return self.author.name
      else
